@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: 'AWS::Serverless-2016-10-31'
-Description: An AWS Lambda application that calls the Lambda API.
+Description: The Node.js API Gateway sample application from the AWS Lamda Developer Guide.
 Resources:
   api:
     Type: AWS::Serverless::Api
